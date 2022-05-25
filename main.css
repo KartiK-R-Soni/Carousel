@@ -1,0 +1,82 @@
+.carousel {
+    position: relative;
+  }
+  
+
+  #event1
+  {
+    background-image: url("bg.jpg");  /*insert background from here */
+    
+  }
+  #event2
+  {
+    background-image: url("");  /*insert background from here */
+    max-width: 100%;
+    width: 800px;
+  }
+  #event3
+  {
+    background-image: url("");  /*insert background from here */
+  }
+  #event4
+  {
+    background-image: url("");  /*insert background from here */
+  }
+  #event5
+  {
+    background-image: url("");  /*insert background from here */
+  }
+
+  .carousel__item {
+    height: 300px;
+    text-align: center;
+     
+    background-repeat: no-repeat;
+    block-size: auto;
+    width: 80%;
+    padding: 100px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #c65454;
+    display: none;
+  }
+  .desc
+  {  
+     color: beige;
+     font-size: large;
+    
+  }
+  
+  p
+  {
+    text-align: start;
+    color: black;
+    white-space: pre-line;
+    font-size: small;
+  }
+  .carousel__item--selected {
+    display: block;
+  }
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgb(235, 239, 238);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgba(11, 1, 1, 0.5);
+  }
