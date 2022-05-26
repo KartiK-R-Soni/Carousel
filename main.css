@@ -5,33 +5,40 @@
 
   #event1
   {
-    background-image: url("bg.jpg");  /*insert background from here */
+    background: url("OIP.jfif");  /*insert background from here */
+    background-repeat: no-repeat;
+    background-size: cover;
     
+
   }
   #event2
   {
     background-image: url("");  /*insert background from here */
-    max-width: 100%;
-    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #event3
   {
     background-image: url("");  /*insert background from here */
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #event4
   {
     background-image: url("");  /*insert background from here */
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #event5
   {
     background-image: url("");  /*insert background from here */
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .carousel__item {
     height: 300px;
     text-align: center;
-     
-    background-repeat: no-repeat;
     block-size: auto;
     width: 80%;
     padding: 100px;
@@ -40,18 +47,18 @@
     font-size: 2em;
     color: #c65454;
     display: none;
+    
   }
   .desc
   {  
-     color: beige;
+     color: rgb(9, 9, 9);
      font-size: large;
-    
+     
   }
-  
   p
   {
     text-align: start;
-    color: black;
+    color: rgb(227, 227, 34);
     white-space: pre-line;
     font-size: small;
   }
@@ -71,7 +78,7 @@
     width: 10px;
     height: 10px;
     display: inline-block;
-    background: rgb(235, 239, 238);
+    background: rgb(20, 221, 171);
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
